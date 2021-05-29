@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+html {
+  font-size: 20px; }
+
+header {
+  background-image: linear-gradient(#2C2C2C, #464646);
+  color: white; }
+  header nav {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem; }
+  header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; }
+    header section h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      margin-left: 2vw; }
+    header section p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+      margin-left: 2vw; }
+
+header .foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.botonVolver {
+  margin-left: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none; }
+
+.botonVolver a {
+  text-decoration: none;
+  color: white; }
+
+@media only screen and (max-width: 750px) {
+  header section .foto {
+    display: none; }
+  header section h1 {
+    font-size: 2.5rem; }
+  header section p {
+    font-size: 0.9rem; } }
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+  header section .foto {
+    display: none; }
+  header section h1 {
+    font-size: 3.5rem; }
+  header section p {
+    font-size: 1.2rem; } }
+
+footer {
+  background-color: #2C2C2C; }
+  footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 5vh; }
+    footer section h3 {
+      font-family: 'Bebas Neue';
+      font-size: 1.4rem; }
+    footer section ul li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.7rem; }
+      footer section ul li a {
+        color: white;
+        text-decoration: none; }
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  height: 20vh; }
+  main section h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem; }
+
+.secciones div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10vh; }
+  .secciones div button {
+    margin-top: 5vh;
+    font-size: 1rem; }
+    .secciones div button a {
+      color: white;
+      text-decoration: none; }
+
+.secciones div button:hover {
+  background-color: #464646; }
+
+@media only screen and (max-width: 750px) {
+  main section h2 {
+    font-size: 1.7rem; }
+  .secciones div button {
+    font-size: 0.8rem; } }
+
+.seccionQuienes {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  height: 70vh; }
+  .seccionQuienes div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none; }
+  .seccionQuienes h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem; }
+  .seccionQuienes p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem; }
+
+.seccionTrayectoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  height: 70vh; }
+  .seccionTrayectoria div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none; }
+  .seccionTrayectoria h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem; }
+  .seccionTrayectoria p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem; }
+
+.frase div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  background-color: #A60303;
+  color: white; }
+
+div .foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@media only screen and (max-width: 750px) {
+  .seccionQuienes div img {
+    width: 15rem; }
+  .seccionQuienes h2 {
+    font-size: 1.8rem; }
+  .seccionQuienes p {
+    font-size: 0.8rem; }
+  .frase div {
+    height: 15vh;
+    font-size: 1rem; }
+  .seccionTrayectoria div img {
+    width: 15rem; }
+  .seccionTrayectoria h2 {
+    font-size: 1.8rem; }
+  .seccionTrayectoria p {
+    font-size: 0.8rem; } }
+
+.producto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+  background-color: #A60303;
+  color: blanchedalmond; }
+  .producto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    padding: 5vh; }
+  .producto h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem; }
+  .producto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem; }
+
+@media only screen and (max-width: 750px) {
+  .producto div img {
+    width: 15rem; }
+  .producto h2 {
+    font-size: 1.5rem; }
+  .producto p {
+    font-size: 0.8rem; } }
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 5vh 5vh 0vh 5vh; }
+
+.videoIng {
+  padding: 6vh; }
+
+.recursos div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #A60303;
+  margin-bottom: 8vh; }
+
+.recursos h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 5vh;
+  font-size: 2rem; }
+
+.recursos p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5vh;
+  font-size: 1rem;
+  color: blanchedalmond; }
+
+@media only screen and (max-width: 750px) {
+  .principal {
+    height: 50vh; }
+  .principal div p {
+    font-size: 0.8rem; }
+  .videoIng div video {
+    width: 16rem; }
+  .recursos h2 {
+    font-size: 1.8rem; }
+  .recursos p {
+    font-size: 0.8rem; } }
+
+.seccionFormulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none;
+  background-color: #A60303;
+  padding: 5vh; }
+  .seccionFormulario .mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif; }
+  .seccionFormulario .cuadros {
+    font-family: 'Montserrat', sans-serif; }
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh; }
+
+@media only screen and (max-width: 750px) {
+  .mapa div {
+    display: none; } }

@@ -1,0 +1,84 @@
+.seccionQuienes {
+    @include misFlex(flex, row, none, none);
+    height: 70vh;
+
+    div {
+        @include misFlex(flex, column, center, none);
+    }
+
+    h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+
+.seccionTrayectoria {
+    @include misFlex(flex, row, none, none);
+    height: 70vh;
+
+    div {
+        @include misFlex(flex, column, center, none);
+    }
+
+    h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+
+.frase div {
+    @include misFlex(flex, row, center, center);
+    height: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: #A60303;
+    color: white;
+}
+
+div .foto {
+    @include misFlex(flex, column, center, center);
+}
+
+
+@media only screen and (max-width: 750px) {
+    .seccionQuienes div img {
+        width: 15rem;
+    }
+
+    .seccionQuienes h2 {
+        font-size: 1.8rem;
+    }
+
+    .seccionQuienes p {
+        font-size: 0.8rem;
+    }
+
+    .frase div {
+        height: 15vh;
+        font-size: 1rem;
+    }
+
+    .seccionTrayectoria div img {
+        width: 15rem;
+    }
+
+    .seccionTrayectoria h2 {
+        font-size: 1.8rem;
+    }
+
+    .seccionTrayectoria p {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,37 @@
+.producto {
+    @include misFlex(flex, row, center, center);
+    margin: 5vh;
+    background-color: #A60303;
+    color: blanchedalmond;
+
+    div {
+        @include misFlex(flex, column, none, none);
+        padding: 5vh;
+    }
+
+    h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 750px) {
+    .producto div img {
+        width: 15rem;
+    }
+
+    .producto h2 {
+        font-size: 1.5rem;
+    }
+
+    .producto p {
+        font-size: 0.8rem;
+    }
+}

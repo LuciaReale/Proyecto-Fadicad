@@ -1,0 +1,52 @@
+.principal {
+    @include misFlex(flex, row, center, center);
+    height: 30vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 5vh 5vh 0vh 5vh;
+}
+
+.videoIng {
+    padding: 6vh;
+}
+
+.recursos div {
+    @include misFlex(flex, column, center, center);
+    background-color: #A60303;
+    margin-bottom: 8vh;
+}
+
+.recursos h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 5vh;
+    font-size: 2rem;
+}
+
+.recursos p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5vh;
+    font-size: 1rem;
+    color: blanchedalmond;
+}
+
+@media only screen and (max-width: 750px) {
+    .principal {
+        height: 50vh;
+    }
+
+    .principal div p {
+        font-size: 0.8rem;
+    }
+
+    .videoIng div video {
+        width: 16rem;
+    }
+
+    .recursos h2 {
+        font-size: 1.8rem;
+    }
+
+    .recursos p {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,44 @@
+main section {
+    @include misFlex(flex, column, center, center);
+    padding: 4rem;
+    height: 20vh;
+
+    h2 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.2rem;
+    }
+}
+
+
+.secciones div {
+    @include misFlex(flex, column, center, center);
+    height: 50vh;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10vh;
+
+    button {
+        margin-top: 5vh;
+        font-size: 1rem;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.secciones div button:hover {
+    background-color: #464646;
+}
+
+@media only screen and (max-width: 750px) {
+    main section h2 {
+        font-size: 1.7rem;
+    }
+
+    .secciones div button {
+        font-size: 0.8rem;
+    }
+}
+
+

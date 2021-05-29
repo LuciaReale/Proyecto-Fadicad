@@ -1,0 +1,26 @@
+.seccionFormulario {
+    @include misFlex(flex, row, none, none);
+    background-color: #A60303;
+    padding: 5vh;
+
+    .mensaje {
+        @include misFlex(flex, column, center, center);
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .cuadros {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.mapa {
+    @include misFlex(flex, row, center, center);
+    padding: 5vh;
+}
+
+@media only screen and (max-width: 750px) {
+    .mapa div {
+        display: none;
+    }
+}

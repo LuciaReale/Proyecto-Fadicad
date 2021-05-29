@@ -1,0 +1,71 @@
+header {
+    background-image: linear-gradient($gris-oscuro, $gris-medio);
+    color: white;
+
+    nav {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1rem;
+    }
+
+    section {
+        @include misFlex(flex, row, center, center);
+        height: 60vh;
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3.5rem;
+            margin-left: 2vw;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem;
+            margin-left: 2vw;
+        }
+    }
+
+}
+
+
+header .foto {
+    @include misFlex(flex, column, center, center);
+}
+
+.botonVolver {
+    margin-left: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.botonVolver a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    header section .foto {
+        display: none;
+    }
+
+    header section h1 {
+        font-size: 2.5rem;
+    }
+
+    header section p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    header section .foto {
+        display: none;
+    }
+
+    header section h1 {
+        font-size: 3.5rem;
+    }
+
+    header section p {
+        font-size: 1.2rem;
+    }
+}

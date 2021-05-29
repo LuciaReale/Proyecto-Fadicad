@@ -1,0 +1,25 @@
+footer {
+    background-color: $gris-oscuro;
+
+    section {
+        @include misFlex(flex, column, center, center);
+        color: white;
+        padding-top: 5vh;
+
+        h3 {
+            font-family: 'Bebas Neue';
+            font-size: 1.4rem;
+        }
+
+        ul li {
+            @include misFlex(flex, column, center, center);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.7rem;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
