@@ -11,6 +11,10 @@ footer {
             font-size: 1.4rem;
         }
 
+        ul{
+            padding-left: 0 !important;
+        }
+
         ul li {
             @include misFlex(flex, column, center, center);
             font-family: 'Montserrat', sans-serif;

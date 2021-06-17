@@ -72,6 +72,8 @@ footer {
     footer section h3 {
       font-family: 'Bebas Neue';
       font-size: 1.4rem; }
+    footer section ul {
+      padding-left: 0 !important; }
     footer section ul li {
       display: flex;
       flex-direction: column;
