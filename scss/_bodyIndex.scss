@@ -31,6 +31,23 @@ main section {
     background-color: #464646;
 }
 
+.subtitulo div {
+    @include misFlex(flex, column, center, center);
+    padding: 4rem;
+    height: 20vh;
+
+    h3 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.8rem;
+    }
+}
+
+.iconos div {
+    @include misFlex(flex, column, center, center);
+    padding-bottom: 8vh;
+}
+
+
 @media only screen and (max-width: 750px) {
     main section h2 {
         font-size: 1.7rem;
@@ -38,6 +55,14 @@ main section {
 
     .secciones div button {
         font-size: 0.8rem;
+    }
+
+    .subtitulo div {
+        display: none;
+    }
+
+    .iconos div{
+        display: none;
     }
 }
 

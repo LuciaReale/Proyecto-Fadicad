@@ -114,11 +114,33 @@ main section {
 .secciones div button:hover {
   background-color: #464646; }
 
+.subtitulo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  height: 20vh; }
+  .subtitulo div h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem; }
+
+.iconos div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8vh; }
+
 @media only screen and (max-width: 750px) {
   main section h2 {
     font-size: 1.7rem; }
   .secciones div button {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .subtitulo div {
+    display: none; }
+  .iconos div {
+    display: none; } }
 
 .seccionQuienes {
   display: flex;
