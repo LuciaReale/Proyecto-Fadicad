@@ -1,6 +1,6 @@
 .seccionFormulario {
     @include misFlex(flex, row, none, none);
-    background-color: #A60303;
+    background-color: $rojo-oscuro;
     padding: 5vh;
 
     .mensaje {

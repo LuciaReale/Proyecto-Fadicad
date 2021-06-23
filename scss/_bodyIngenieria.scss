@@ -12,7 +12,7 @@
 
 .recursos div {
     @include misFlex(flex, column, center, center);
-    background-color: #A60303;
+    background-color: $rojo-oscuro;
     margin-bottom: 8vh;
 }
 
