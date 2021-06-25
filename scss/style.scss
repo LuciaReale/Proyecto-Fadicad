@@ -12,10 +12,10 @@ $gris-medio: #464646;
     text-decoration: none;
 }
 
+
 html {
     font-size: 20px;
 }
-
 
 
 @mixin misFlex($display, $direction, $justify, $align) {
@@ -24,8 +24,6 @@ html {
     justify-content: $justify;
     align-items: $align;
 }
-
-
 
 
 @import 'header';
